@@ -1,0 +1,55 @@
+MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASCRIPT
+
+    ☺ Hay tres tipos de crear variables:
+        ♦ var
+            Al crear variables estan no deben iniciarse con numeros o caracteres especiales
+            Ejemplo:
+                var nombre = "Camilo"  ----> Correcto
+                var 13nOmbrË = "Camilo"  ----> Incorrecto
+
+        ♦ let
+        ♦ const
+
+    ☺ Formas de nombrar nuestra variables:
+        ♦ var primerNombre = "Camilo"  ----> Camelcase *Recomendado
+        ♦ var primer-nombre = "Camilo" ----> Underscore
+        ♦ var PrimerNnombre = "Camilo" ----> Pascalcase
+
+    ☺ Para hacer un salto de linea en JavaScript:
+        <br>
+
+    ☺ Tipos de comillas y cuando usarlas:
+        ♦ Comillas Dobles: ("")
+            Esto es para usarlo cuando no escribiremos palabras que necesiten llevar las comillas dobles en alguna palabra o parrafo, pero si las hay palabras o parrafos que necesitan llevar comillas una alternativa es poner comillas simples ('').
+                Ejemplo:
+                Poner las comillas correctas a la palabra Mochila. En la siguiente linea de codigo
+                console.log("Hola Pedro, esto es tu Mochila.");
+                
+                Pues el codigo se veria asi con las comillas puesta en la la palabra Mochila.
+                console.log("Hola Pedro, esto es tu 'Mochila'.");
+                En este caso la palbra Mochila necesita llevar comillas simples, porque la linea de codigo esta trabajando con comillas dobles la cual si pondriamos dobles terminaria rompiendo el resaltado de comillas de la palabra 'Mochila'.
+
+        ♦ Comillas simples: ('')
+            Al igual que el caso anterior, podemos usarlo cuando escribiremos palabras que no necesiten llevar las comillas simples en alguna palabra o parrafo, de ser lo contrario una alternativa es poner comillas dobles donde corresponda.
+                Ejemplo:
+                Poner las comillas correctas en la palabra España. En la siguiente linea de codigo
+                console.log('Me llamo Sthefany, soy de España');
+                
+                Pues el codigo se veria asi con las comillas puesta en la la palabra España.
+                console.log('Me llamo Sthefany, soy de "España"');
+
+                En este caso la palbra España necesita llevar comillas dobles, porque la linea de codigo esta trabajando con comillas simple la cual si pondriamos simples terminaria rompiendo el resaltado de comillas de la palabra "España".
+
+        ♦ Comillas Invertidas: (``)
+            Nos va permitir concatenar e interpolar strings de modo que nuestro código quede mucho más limpio.
+                Ejemplo:
+                const name = 'Gerardo';
+                const surname = 'Fernández';
+                const telephone = '123 123 123';
+
+                // "Old syntax"
+                const userInfo = 'User info: ' + name + ' ' + surname + ' ' + telephone;
+
+                // "New syntax"
+                const userInfo = `User info: ${name} ${surname} ${telephone}`;
+

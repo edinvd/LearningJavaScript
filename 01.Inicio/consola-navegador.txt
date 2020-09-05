@@ -1,0 +1,22 @@
+TIPS O TRUCOS AL UTILIZAR LA CONSOLA DEL NAVEGADOR
+
+    Estos se muestran mediante unos cuadrados que deslizan del navegador:
+        prompt('Para mostrar mensaje en el navegador');
+        alert('Para mostrar mensaje de tipo alerta');
+        confirm('Para mostrar mensaje de confirmacion, dando la opcion de elegir entre aceptar o cancelar'); si eliges aceptar esto sera true(verdadero), si eliges cancelar este sera false(falso).
+
+    Para mostrar valores en la "console" del navegador:
+        console.log('Esto se mostrara en la consola del navegador');
+        console.log(4+2);
+        console.log(true);
+        console.log('ID '+ 0201);
+
+        Mostrara los arrys en forma de un cuadrado de doble entrada
+        console.table(['Naranja', 'Manzana', 'Mango', 'Papaya']);
+
+    Para mostrar valores en la "ventana" del navegador:
+        document.write(Esto es para mostrara valores en la ventana del navegador);
+
+    Limpiar la consola del navegador:
+        clear()
+
