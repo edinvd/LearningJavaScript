@@ -3,12 +3,38 @@ MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASC
     ☺ Hay tres tipos de crear variables:
         ♦ var
             Al crear variables estan no deben iniciarse con numeros o caracteres especiales
-            Ejemplo:
+                Ejemplo:
                 var nombre = "Camilo"  ----> Correcto
                 var 13nOmbrË = "Camilo"  ----> Incorrecto
 
         ♦ let
+            Estas no permiten redeclarar las mismas variables.
+                Ejemplo: 
+                Esto seria un error, ya que producto se esta reemplazando con let otra vez.
+                    let producto = ('Libro');
+                    let producto = ('Libro1');
+
+                Forma correcta
+                    let producto = ('Libro'),
+                        producto = ('Libro1');
+
         ♦ const
+            Constante, utilizarlo cuando sabemos que nuestro valor no va a acambiar, y si lo es podriamos cambiarlo a "let"; Necesita ser agragado un valor de lo contrario devolvera error
+                Ejemplo:
+                Esto delvolveria error
+                    const producto = 'Libro';
+                        producto = 'Libro1';
+
+                Forma correcta
+                Si una "const" necesita cambiar de valor, lo recomendable es cabiarlo por un let.
+                    let producto = 'Libro';
+                        producto = 'Libro1';
+
+    ☺ Una cadena en JavaScript, siempre lleva comillas.
+        ♦ Estas pueden ser: 
+            Comillas simples
+            Comillas dobles
+            Comillas invertidas.
 
     ☺ Formas de nombrar nuestra variables:
         ♦ var primerNombre = "Camilo"  ----> Camelcase *Recomendado
@@ -17,6 +43,21 @@ MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASC
 
     ☺ Para hacer un salto de linea en JavaScript:
         <br>
+
+    ☺ Escapar las comillas
+        ♦ Aqui tenemos una oracion que lleva comillas dobles
+            Ejemplo:
+                let frase;
+                frase = 'Entonces dije: "Esto me gusta".';
+                console.log(frase);
+
+        ♦ Si queremos que la cadena de texto tenga comillas       simples, como en la oracion.
+            Ejemplo:
+                let frase;
+                frase = 'Entonces dije: \'Esto me gusta\'.'
+                console.log(frase);
+                
+                Este solo necesita una diagonal invertida antes de la comilla. Esto es mas usado en caso de que que escribieramos Apóstrofes.
 
     ☺ Tipos de comillas y cuando usarlas:
         ♦ Comillas Dobles: ("")
