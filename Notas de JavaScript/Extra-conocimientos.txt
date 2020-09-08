@@ -1,5 +1,7 @@
 MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASCRIPT
 
+
+
     ☺ Hay tres tipos de crear variables:
         ♦ var
             Al crear variables estan no deben iniciarse con numeros o caracteres especiales
@@ -34,7 +36,6 @@ MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASC
         ♦ Estas pueden ser: 
             Comillas simples
             Comillas dobles
-            Comillas invertidas.
 
     ☺ Formas de nombrar nuestra variables:
         ♦ var primerNombre = "Camilo"  ----> Camelcase *Recomendado
@@ -94,3 +95,11 @@ MIS NOTAS CON ALGUNOS CONOCIMIENTOS EXTRA DEL LENGUAJE DE PROGRAMACION DE JAVASC
                 // "New syntax"
                 const userInfo = `User info: ${name} ${surname} ${telephone}`;
 
+
+    ☺ En JavaScript cuando queremos hacer una operacion, tenemos que tener cuidado, existen la regla de poner "Number" antes de cada variable asignada. Para que esta la interprete como un numero y no como una cadena de texto, asi no termine uniendo los numeros sino devolviendo el resultado de acuerdo a la operacion.
+        ♦ Number()
+            Ejemplo:
+            var primerNumero = prompt('Ingresa primer numero'),
+            segundoNumero = prompt('Ingresa segundo numero'),
+            sumaTotal = Number(primerNumero) + Number(segundoNumero);
+            document.write(sumaTotal);
