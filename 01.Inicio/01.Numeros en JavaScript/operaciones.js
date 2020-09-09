@@ -76,4 +76,8 @@ console.log(--puntaje3); // Esto decrementa en el orden de numeros desde ya.
 console.log(puntaje4 += 35); // Esto suma el dato dado con lo establecido.
 console.log(puntaje5 -= 42); // Esto suma el dato dado con lo establecido.
 
+// ############# TIPOS DE DATOS EN JAVASCRIPT ############# 
+
+
+
 
