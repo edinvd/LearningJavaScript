@@ -18,17 +18,17 @@ console.log(valor);
 //Se utiliza typeof para saber que tipo de datos son:
 let tipodeDato;
 
-tipodeDato = 20;
-tipodeDato = 'Soy una cadena de texto';
-tipodeDato = true;
-tipodeDato = null;
+tipodeDato = 20; // enteros
+tipodeDato = 'Soy una cadena de texto'; // Cadena de texto
+tipodeDato = true; // Boolean
+tipodeDato = null; // Null o nulo
 
 tipodeDato = Symbol('Simbolo');
 
 // Secunadrios
 
 // Array
-tipodeDato = [1,2,3,4];
+tipodeDato = [1,2,3,4]; // Array
 // Objetos
 tipodeDato = {
     nombre : 'Edin',
